@@ -1,0 +1,107 @@
+Computer Networks:
+A computer network is a digital telecommunications network which allows nodes to share resources; In computer networks, computing devices exchange data with each other using connections (data links) between nodes.
+
+Network Address:
+A network address is an identifier for a node or host on a telecommunications network; Network address is designed to be a unique identifiers across the network, although some networks allow for local, private addresses or locally administered addresses that may not be unique.
+
+Connection: 
+In networking, a connection refers to pieces of related information that are transfered through a network; This generally infers that a connection is built before the data transfer (by following the procedures laid out in a protocol) and then is deconstructed at the at the end of the data transfer.
+
+Packet:
+A packet is, generally speaking, the most basic unit that is transfered over a network; When communicating over a network, packet is an envelopes that carries your data (in pieces) from one end point to the other.
+
+LAN: 
+LAN stands for "local area network" ( LAN ); It refers to a network or a portion of a network that is not publicly accessible to the greater internet; A home or office network is an example of a LAN.
+
+WAN: 
+WAN stands for "wide area network" ( WAN ); It means a network that is much more extensive than a LAN; While WAN is the relevant term to use to describe large, dispersed networks in general, it is usually meant to mean the internet, as a whole.
+
+Port: 
+A port is an address on a single machine that can be tied to a specific piece of software; Port is not a physical interface or location, but a port allows your server to be able to communicate using more than one application.
+
+Firewall:
+A firewall is a program that decides whether traffic coming into a server or going out should be allowed; A firewall usually works by creating rules for which type of traffic is acceptable on which ports; Generally, firewall block ports that are not used by a specific application on a server.
+
+TCP:
+TCP stands for transmission control protocol; TCP is implemented in the transport layer of the IP/TCP model and is used to establish reliable connections; TCP is one of the protocols that encapsulates data into packets. 
+
+UDP:
+UDP stands for user datagram protocol; UDP stands for user datagram protocol; UDP is much faster than other protocols.
+
+HTTP:
+HTTP stands for hypertext transfer protocol; HTTP is a protocol defined in the application layer that forms the basis for communication on the web; HTTP defines a number of functions that tell the remote system what you are requesting.
+
+FTP:
+FTP stands for file transfer protocol; FTP is also in the application layer and provides a way of transferring complete files from one host to another. FTP is inherently insecure so it is not recommended.
+
+Internet:
+The internet is a globally connected network system that uses TCP/IP to transmit data via various types of media; The internet is a network of global exchanges – including private, public, business, academic and government networks – connected by guided, wireless and fiber-optic technologies; The internet refers to the global communication system.
+
+IP:
+The IP protocol is one of the fundamental protocols that allow the internet to work; IP addresses are unique on each network and they allow machines to address each other across a network; IP is implemented on the internet layer in the IP/TCP model.
+
+ICMP:
+ICMP stands for internet control message protocol; ICMP is used to send messages between devices to indicate the availability or error conditions; ICMP packets are usually transmitted when a packet of a different kind meets some kind of a problem.
+
+DNS:
+DNS stands for domain name system. DNS is an application layer protocol used to provide a human-friendly naming mechanism for internet resources; DNS is what ties a domain name to an IP address and DNS allows you to access sites by name in your browser.
+
+SSH:
+SSH stands for secure shell; SSH is an encrypted protocol implemented in the application layer; SSH can be used to communicate with a remote server in a secure way. 
+
+Bandwidth:
+Bandwith in analog communications, bandwith is the difference between the highest and lowest frequencies available in the band; In digital communications, bandwidth is loosely used to refer to the information-carrying capacity of a network or component of a network.
+
+NAT: 
+NAT stands for network address translation; NAT is a way to translate requests that are incoming into a routing server to the relevant devices or servers that NAT knows about in the LAN; NAT is usually implemented in physical LANs as a way to route requests through one IP address to the necessary backend servers.
+
+BGP:
+BGP is short for Border Gateway Protocol; BGP is a network protocol operating on port 179 for exchanging routing information between gateway hosts in an Autonomous System network; BGP uses iBGP for propogation and eBGP for realization.
+
+DSL:
+DSL is short for digital subscriber line; DSL is a method for home users and small businesses to have high-speed access to the Internet over standard copper lines; DSL is capable of receiving up to 6.1 megabits per second; DSL is a great solution if it is available in your area; Because of the technology used, DSL availability depends on the user being within a certain distance from your phone company's CO.
+
+DHCP:
+DHCP is short for Dynamic Host Configuration Protocol; DHCP is a protocol used to assign an IP address to a computer or device connected to a network automatically; Routers, switches, or servers that use DHCP to assign addresses to other computers can make setup and management easier for the network administrator using DHCP.
+
+Ethernet:
+Ethernet was originally known as Alto Aloha Network; Ethernet is a widely used local-area network protocol created at Xerox PARC in 1973 by Robert Metcalfe and others; Ethernet became the first network to provide Carrier Sense Multiple Access / Collision Detection (CSMA/CD); Ethernet is a fast and reliable network solution that is still widely used today.
+
+Host:
+Host is aternately referred to as an Internet node; A host is the computer or another device connected to a computer network that delegates to the other nodes; A network host handles user requests, including offering services, software applications, and information resources to users or other nodes in the network; A host can provide many different services.
+
+IMAP:
+IMAP is short for Internet Message Access Protocol; IMAP was first developed by Mark Crispin while at Stanford University in 1986; IMAP is a protocol for retrieving e-mail from a server, similar to POP; The secure version of IMAP is called IMAPS, which stands for IMAP over SSL.
+
+ISP:
+ISP is alternatively known as a network provider; An ISP is a company that provides Internet access to users or subscribers of its service. ISP gives you an Internet account (access to the Internet), e-mail address, web space for a web page. ISP is also known as Internet Service Provider.
+
+Router:
+A router is hardware device designed to receive, analyze and move incoming packets to another network. A router may also be used to convert the packets to another network interface, drop them, and perform other actions relating to a network. A router has a lot more capabilities than other network devices.
+
+Server:
+In a technical sense, a server is an instance of a computer program or device that accepts and responds to requests made by another program. A good metaphor would describe a customer ordering a package then the mailman (server) delivering it to them or someone else. Servers are used to manage network resources. Some server are committed to a specific task, often referred to as dedicated.
+
+Subnet Mask:
+Subnet mask is short for subnetwork mask. A subnet mask is data used for bitwise operations on a network of IP addresses that is divided into two or more groups. This process, known as subnetting using subnet mask, divides an IP network into blocks of logical addresses. Using subnet mask, subnetting can improve security and help to balance overall network traffic.
+
+Switch:
+A switch is a hardware device that filters and forwards network packets, but switch are often not capable of much more. The first network device that was added to the Internet was a switch called the IMP, which helped send the first message on October 29, 1969. A switch is more advanced than a hub.
+
+Telnet:
+A terminal emulation that enables a user to connect to a remote host or device using a telnet client, usually over port 23. For example, typing telnet hostname would connect a user to a host named hostname. Telnet enables a user to manage an account or device remotely. For example, a user may telnet into a computer that hosts their website to manage his or her files remotely.
+
+Throughput:
+Throughput is alternatively referred to as communication speed. Throughput is a value used to illustrate the total amount of data being transferred through the computer or device at that given time. This number, throughput, is commonly represented in bits per second (bps) or bytes per second (Bps).
+
+Topology:
+A topology is the physical configuration of a network that determines how the network's computers are connected. Common topology configurations include the bus topology, linear bus, mesh topology, ring topology, star topology, tree topology and hybrid topology.
+
+Client:
+A client is a computer that connects to and uses the resources of a remote computer, or server. Many corporate networks comprise a client computer for each employee, each of which connects to the corporate server. Client requests information, and provides an interface to the user to view the information on the client.
+
+CIDR:
+CIDR is short for classless inter-domain routing. CIDR is a method of reducing the size of a routing table by utilizing IP aggregation. CIDR is explained in further details in RFC 1518 and 1519.
+
+Routing:
+Routing is the path that network data or a packet takes to reach its destination on a network. Routing is defined as the best possible path by the network-router to follow for the transmission of data. Routing is done at the network-layer.
